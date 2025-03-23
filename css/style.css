@@ -448,6 +448,9 @@ a:focus {
   min-width: 75px;
   height: 75px;
   margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* ให้ box เต็มความสูง */
 }
 
 .service_section .box .img-box img {
@@ -455,6 +458,7 @@ a:focus {
   max-height: 100%;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
+
 }
 
 .service_section .box .detail-box h5 {
