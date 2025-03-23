@@ -960,6 +960,28 @@ padding: 0 20px;
 }
 
 
+.more-text {
+  display: none;
+}
 
+button {
+  background-color: #276ACE; /* สีพื้นหลังปุ่ม */
+  color: white; /* สีข้อความในปุ่ม */
+  border: none; /* ไม่มีขอบ */
+  padding: 10px 20px; /* เพิ่มระยะห่างภายในปุ่ม */
+  text-align: center; /* จัดข้อความให้กึ่งกลาง */
+  text-decoration: none; /* ไม่ให้มีขีดเส้นใต้ */
+  display: inline-block; /* ให้ปุ่มแสดงในแถวเดียว */
+  font-size: 16px; /* ขนาดตัวอักษร */
+  cursor: pointer; /* เปลี่ยน cursor เป็นมือเมื่อวางบนปุ่ม */
+  border-radius: 100px; /* ขอบปุ่มมน */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* เพิ่มการเปลี่ยนแปลงแบบค่อยๆ เมื่อโฮเวอร์ */
+}
+
+/* เอฟเฟกต์เมื่อวางเมาส์ (hover) */
+button:hover {
+  background-color: #578ddd; /* เปลี่ยนสีพื้นหลังเมื่อโฮเวอร์ */
+  transform: scale(1.1); /* ขยายขนาดเล็กน้อย */
+}
 
 /*# sourceMappingURL=style.css.map */
