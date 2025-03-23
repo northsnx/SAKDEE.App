@@ -47,6 +47,7 @@ body {
   position: relative;
   font-weight: bold;
   margin-bottom: 0;
+  font-size: 42px;
 }
 
 .heading_container h2 span {
@@ -56,6 +57,7 @@ body {
 .heading_container p {
   margin-top: 10px;
   margin-bottom: 0;
+  font-size: 20px;
 }
 
 .heading_container.heading_center {
@@ -521,10 +523,12 @@ a:focus {
 
 .about_section .detail-box h3 {
   font-weight: bold;
+  font-size: 38px;
 }
 
 .about_section .detail-box p {
   margin-top: 15px;
+  font-size: 22px;
 }
 
 .about_section .detail-box a {
